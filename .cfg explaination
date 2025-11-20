@@ -1,0 +1,11 @@
+Use ec2-user and the key aws/ansible.pem to connect
+
+Use the inventory file ./inventory
+
+Don’t ask for SSH confirmations
+
+Don’t create retry files
+
+Run everything with sudo as root
+
+Don’t ask for sudo password
