@@ -4,6 +4,7 @@ Ping All Hosts
 - hosts: all
   tasks:
     - ansible.builtin.ping:
+      
 ========================================================
 PRINT MESSAGE
 
@@ -21,6 +22,8 @@ Check Uptime
       register: out
     - debug:
         var: out.stdout
+
+      
 ===========================================================
 
 Run Multiple commands at same time
